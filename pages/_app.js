@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>Link2Gether</title>
         <link rel="icon" href="/Link2Gether_Favicon.png" />
       </Head>
       <Component {...pageProps} />

@@ -63,7 +63,7 @@ func main() {
 
 	go handleMessages() // Start the central message handling goroutine
 
-	log.Println("Chat server started on", *addr)
+	log.Println("Chat server started on Link2Gether", *addr)
 	err := http.ListenAndServe(*addr, nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
