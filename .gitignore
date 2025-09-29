@@ -1,7 +1,6 @@
 # Node modules
 node_modules/
 next/
-
 # Logs
 logs
 *.log
@@ -60,7 +59,11 @@ typings/
 
 # dotenv environment variables file
 .env
+.test.env
+.production.env
+.env.local
 .env.test
+.env.production.local
 
 # next.js build output
 .next
